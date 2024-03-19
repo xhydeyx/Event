@@ -23,6 +23,7 @@ public class ComplementaryPasses {
         return accessLevel;
     }
 
+    @Override
     public String toString(){
         return "ComplementaryPasses{PassID='" +passID +"',AccessLevel='" +accessLevel +"'}";
     }
